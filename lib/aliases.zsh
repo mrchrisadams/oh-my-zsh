@@ -23,4 +23,3 @@ alias ll='ls -l'
 alias afind='ack-grep -il'
 
 alias x=extract
-
