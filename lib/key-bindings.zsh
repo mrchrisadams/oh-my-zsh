@@ -2,6 +2,9 @@
 autoload -U compinit
 compinit -i
 
+# if Vim is set as your default editor zsh assumes you want to use vi style autocompletion,
+# which if you've been using emacs/Textmate previously will change the behaviour of your shell.
+# '-e' binds it into emacs mode, giving you back incremental searching and suchlike
 bindkey -e
 bindkey '\ew' kill-region
 bindkey -s '\el' "ls\n"
