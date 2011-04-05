@@ -36,8 +36,6 @@ done
 # make booting less slow
 # $DISABLE_AUTO_UPDATE="true"
 
-# Check for updates on initial load...
-if [ "$DISABLE_AUTO_UPDATE" = "true" ]
 # Load the theme
 if [ "$ZSH_THEME" = "random" ]
 then
