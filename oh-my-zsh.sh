@@ -31,10 +31,10 @@ for plugin ($plugins); do
 done
 
 # Load all of your custom configurations from custom/
-for config_file ($ZSH/custom/*.zsh) source $config_file
+# for config_file ($ZSH/custom/*.zsh) source $config_file
 
 # make booting less slow
-$DISABLE_AUTO_UPDATE="true"
+# $DISABLE_AUTO_UPDATE="true"
 
 # Check for updates on initial load...
 if [ "$DISABLE_AUTO_UPDATE" = "true" ]
