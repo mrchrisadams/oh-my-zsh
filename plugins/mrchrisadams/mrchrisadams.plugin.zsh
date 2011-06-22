@@ -18,5 +18,3 @@ function add-unmerged () {
 # set local paths for mysql et al
 export PATH="$HOME/bin:$HOME/Developer/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
-
-
