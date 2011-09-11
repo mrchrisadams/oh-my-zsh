@@ -23,7 +23,6 @@ function extract() {
 
   remove_archive=1
   if [[ "$1" == "-r" ]] || [[ "$1" == "--remove" ]]; then
-    remove_archive=0
     shift
   fi
 
@@ -63,10 +62,6 @@ function extract() {
         cd ../data; tar xzvf ../data.tar.gz
         cd ..; rm *.tar.gz debian-binary
         cd ..
-      ;;
-      (*)
-        echo "extract: '$1' cannot be extracted" 1>&2
-        success=1
       ;;
     esac
 

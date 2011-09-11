@@ -9,7 +9,6 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
 PROMPT='%{$fg[yellow]%}%t \
 %{$fg[green]%}%c \
-<<<<<<< HEAD
 %{$fg[red]%}$(rvm-prompt )\
 $(git_prompt_info)\
 %{$fg[red]%}%(!.#.»)%{$reset_color%} '
